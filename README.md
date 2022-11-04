@@ -12,5 +12,5 @@ Pretty simple, use this commands:
 2. bash exagonal.sh
 
 # How to uninstall
-Well, just erase the folder from ''Files''.
+Well, just erase the ''exagonal'' folder from ''Files''.
 
