@@ -1,5 +1,6 @@
 # About Exagonal
 A ''bash'' native app that helps you understand the principles of bash. The theme is random but helps you get started with bash.
+You can modify, copy, edit among others this app, as long as you give credit. Even tho, it depends on the situation.
 
 # How to download
 It's simple, you only need to execute the following command:
