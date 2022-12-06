@@ -259,13 +259,13 @@ clearance_menu() {
 restricted_area() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-	        ${CYAN}Restricted Personal Environment (RPE)
+	  ${CYAN}Restricted Personal Environment (RPE)
 		${GREEN}This is a RPE for high commands only (accessing with the specific confidential password). The updates for this section are:
 		
-		${RED}[${WHITE}!${RED}]${ORANGE} Last updated: NOV3.732-12----22 ${RED}[${WHITE}!${RED}]${ORANGE}
+		${RED}[${WHITE}!${RED}]${ORANGE} Last updated: DEC6.944-12----22 ${RED}[${WHITE}!${RED}]${ORANGE}
 		
 	${RED}--------------------------------------------------------------------------------
-	${GREEN}- Files moved from A to B (pts updated in bash room)- Escorted- CONFIDENTIAL${GREEN}
+	${GREEN}- Everything working as expected. All files transfered and completed. GPS and SQL flx. normal CONFIDENTIAL${GREEN}
 	${RED}--------------------------------------------------------------------------------	
 
 		${RED}[${WHITE}00${RED}]${ORANGE} Main Menu     ${RED}[${WHITE}99${RED}]${ORANGE} Exit
@@ -291,16 +291,16 @@ main_menu() {
 		${RED}[${WHITE}!${RED}] CONFIDENTIAL (CFD LVL10 only)
 
 		${RED}[${WHITE}!${RED}]${ORANGE} Secret information update ${RED}[${WHITE}!${RED}]${ORANGE}
-		${RED}[${WHITE}!${RED}]${ORANGE} Last updated: NOV3.732-12----22 ${RED}[${WHITE}!${RED}]${ORANGE}
+		${RED}[${WHITE}!${RED}]${ORANGE} Last updated: DEC6.945-12----22 ${RED}[${WHITE}!${RED}]${ORANGE}
 		
 	${RED}--------------------------------------------------------------------------------
-	${GREEN}- Information ALPHA: NAV-GA-23 executing as planned - Launch at Charlie Zulu 400
+	${GREEN}- General informatics and statistics on/off ON -- Executing as expected.
 		
-		- Information BETA:  BETA-55-TR executing with a 400 Jack Wilson delay T-1
+		- ETA for YAF is 2 Weakpoint Tagma -- Expect on 17DEC800-200
 		
-		- Port access on 151.190 is open for R Type Troops
+		- Ryan Zulu Xulu is open for port 5060
 		
-		- For BTLL STT clear for takedown (TRGT ZZ6123 as on brief room)${GREEN}
+		- Beta points are open at 400 hours from 1000-22 ${GREEN}
 	${RED}--------------------------------------------------------------------------------	
 
 	${RED}[${WHITE}99${RED}]${ORANGE} About EXAGONAL   ${RED}[${WHITE}00${RED}]${ORANGE} Exit     ${RED}[${WHITE}11${RED}]${ORANGE} Confirm 
