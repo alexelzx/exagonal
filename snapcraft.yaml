@@ -8,6 +8,7 @@ description: |
 grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: strict # use 'strict' once you have the right plugs and slots
 apps: Exec=xganolasmc
+      Icon=${SNAP}/meta/gui/Exagonal (512 × 512 px).png
 command: bin/xganolasmc
 parts:
   my-part:
