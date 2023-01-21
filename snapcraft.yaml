@@ -1,13 +1,12 @@
 name: xganolasmc # you probably want to 'snapcraft register <name>'
 base: core18 # the base snap is the execution environment for this snap
 version: '2.0.0' # just for humans, typically '1.2+git' or '1.3.2'
-summary: Bash native app for begginers. # 79 char long summary
-description: |
-  This, is only a bash app, with no access to any system information or whatever. It's for you to know how bash works. You can use this app on your own, modify it or copy it with no problem. If you have any doubt, or, you found a lag/security breach, please, don't hesitate in contacting us.
+summary: Bash native app for begginers. 
+description: This, is only a bash app, with no access to any system information or whatever. It's for you to know how bash works. You can use this app on your own, modify it or copy it with no problem. If you have any doubt, or, you found a lag/security breach, please, don't hesitate in contacting us.
 grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: strict # use 'strict' once you have the right plugs and slots
 apps: Exec=xganolasmc
-      Icon=${SNAP}/meta/gui/Exagonal (512 × 512 px).png
+      Icon=${SNAP}/meta/gui/Exagonal(512×512px).png
 command: bin/xganolasmc
 parts:
 my-part:
