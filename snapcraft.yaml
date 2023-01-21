@@ -1,5 +1,5 @@
 name: xganolasmc
-base: core18
+base: core20
 version: '2.10'
 summary: A bash native app for begginers.
 description: |
