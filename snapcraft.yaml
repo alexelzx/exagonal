@@ -1,6 +1,6 @@
 name: xganolasmc
-base: core20
-version: '2.10'
+base: core18
+version: '2.0.0'
 summary: A bash native app for begginers.
 description: |
   Simple bash app, for begginers, with no access to system ressources or whatever. It does nothing but show some info. It's for begginers to understand how bash works.
@@ -9,4 +9,3 @@ confinement: strict
 parts:
   gnu-xganolasmc:
     source: http://github.com/alexelzx/exagonal
-    plugin: autotools
