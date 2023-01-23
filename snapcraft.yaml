@@ -6,4 +6,10 @@ description: |
   Simple bash app, for begginers, with no access to system ressources or whatever. It does nothing but show some info. It's for begginers to understand how bash works.
 grade: stable
 confinement: strict
-part: 
+apps:
+  xganolasmc:
+    command: bin/xganolasmc
+    plugs: [home]
+
+parts:
+  xganolasmc:
