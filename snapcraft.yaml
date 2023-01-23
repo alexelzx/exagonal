@@ -13,5 +13,5 @@ apps:
 
 parts:
   yt-dlp:
-    plugin: python
-    source: https://github.com/yt-dlp/yt-dlp.gi
+    plugin: 
+    source: 
