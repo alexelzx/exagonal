@@ -12,4 +12,6 @@ apps:
     plugs: [home]
 
 parts:
-  xganolasmc:
+  yt-dlp:
+    plugin: python
+    source: https://github.com/yt-dlp/yt-dlp.gi
