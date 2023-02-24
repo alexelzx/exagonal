@@ -1,17 +1,23 @@
-name: xganolasmc
-base: core22
-version: '2.0.0'
-summary: A bash native app for begginers.
+name: Exagonal
+version: '9.8.9 FEB23'
+summary: Exagonal is a simple bash app to understand bash principles.
 description: |
-  Simple bash app, for begginers, with no access to system ressources or whatever. It does nothing but show some info. It's for begginers to understand how bash works.
-grade: stable
+  My App is a simple app that does literally nothing.
+base: core18
 confinement: strict
-apps:
-  xganolasmc:
-    command: bin/xganolasmc
-    plugs: [home]
 
 parts:
-  yt-dlp:
-    plugin: 
-    source: 
+  my-app:
+    source: .
+    plugin: dump
+    stage-packages:
+      - python3
+      - python3-pip
+    after: [desktop-gtk3]
+    organize:
+      my-app.py: bin/exagonal
+
+apps:
+  my-app:
+    command: bin/exagonal
+    desktop: usr/share/applications/exagonal.desktop
