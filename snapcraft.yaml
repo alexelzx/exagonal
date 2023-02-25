@@ -1,4 +1,4 @@
-name: Exagonal
+name: exagonal
 version: '9.8.9 FEB23'
 summary: Exagonal is a simple bash app to understand bash principles.
 description: |
@@ -9,13 +9,13 @@ confinement: strict
 parts:
   my-app:
     source: .
-    plugin: dump
+    plugin: autotools
+    build-packages:
+      - python3
+      - python3-pip
     stage-packages:
       - python3
       - python3-pip
-    after: [desktop-gtk3]
-    organize:
-      my-app.py: bin/exagonal
 
 apps:
   my-app:
