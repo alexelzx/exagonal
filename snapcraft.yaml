@@ -1,8 +1,7 @@
 name: exagonal
 version: '9.8.9-FEB23'
 summary: Exagonal is a simple bash app to understand bash principles.
-description: |
-  My App is a simple app that does literally nothing.
+description: "My App is a simple app that does literally nothing."
 base: core18
 confinement: strict
 
