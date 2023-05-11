@@ -5,6 +5,10 @@ description: "My App is a simple app that does literally nothing."
 base: core18
 confinement: strict
 
+license: MIT
+
+description-file: debian/copyright
+
 parts:
   my-app:
     source: .
@@ -20,3 +24,6 @@ apps:
   my-app:
     command: bin/exagonal
     desktop: usr/share/applications/exagonal.desktop
+
+contact:
+  email: elizalde.alexios@gmail.com
