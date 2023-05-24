@@ -23,6 +23,3 @@ apps:
   my-app:
     command: bin/exagonal
     desktop: usr/share/applications/exagonal.desktop
-
-contact:
-  email: elizalde.alexios@gmail.com
