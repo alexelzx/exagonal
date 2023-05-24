@@ -12,7 +12,6 @@ description-file: debian/copyright
 parts:
   my-app:
     source: .
-    plugin: autotools
     build-packages:
       - python3
       - python3-pip
