@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Exagonal
+Exec=bin/exagonal
+Icon=${SNAP}/meta/gui/exagonal.png
+Type=Application
