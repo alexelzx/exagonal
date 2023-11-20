@@ -1,5 +1,5 @@
 name: exagonal
-version: '9.8.9-FEB23'
+version: '9.8.9-NOV23'
 summary: Exagonal is a simple bash app to understand bash principles.
 description: "My App is a simple app that does literally nothing."
 base: core18
@@ -12,6 +12,7 @@ description-file: debian/copyright
 parts:
   my-app:
     source: .
+    plugin: python
     build-packages:
       - python3
       - python3-pip
